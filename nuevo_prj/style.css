@@ -191,3 +191,36 @@ body.modo-noche .menu-item {
   background-color: #333;
   border-color: #444;
 }
+
+
+/* Estilos del contador */
+
+.contador-cafes {
+ margin-top: 24px;
+ padding: 12px 16px;
+ border-radius: 8px;
+ background-color: #fff7ec;
+ border: 1px solid #f0d8b8;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ gap: 12px;
+}
+
+.contador-cafes p {
+  margin: 0;
+}
+
+.contador-cafes button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  background-color: #c46a2a;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.contador-cafes button:hover {
+  background-color: #a5531f;
+}

@@ -36,3 +36,25 @@ botonModoNoche.addEventListener('click', function () {
     botonModoNoche.textContent = 'Activar modo noche'
   }
 })
+
+
+// contador de cafes
+
+// 1. seleccionamos elementos:
+
+const spanContadorCafes = document.querySelector('#contador-cafes')
+const botonAgregarCafe = document.querySelector('#btn-agregar-cafe')
+
+// 2. variable contadora
+
+let cantidadCafes = 0
+
+// 3. escuchar el click del boton para ejecutar logica
+
+botonAgregarCafe.addEventListener('click', function () {
+  cantidadCafes++
+  spanContadorCafes.textContent = cantidadCafes
+
+
+  console.log('cafes pedidos hasta ahora: ', cantidadCafes)
+})
