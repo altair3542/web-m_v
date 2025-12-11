@@ -165,4 +165,29 @@ a:hover {
   }
 }
 
+/* modo noche */
 
+body.modo-noche {
+  background-color: #1b1b1b;
+  color: #f0f0f0;
+}
+
+body.modo-noche main {
+  background-color: #262626;
+  box-shadow: 0 0 15px rgba(0,0,0, 0.5);
+}
+
+body.modo-noche header,
+body.modo-noche footer,
+body.modo-noche nav {
+  background-color: #111;
+}
+
+body.modo-noche a {
+  color: #ffb347;
+}
+
+body.modo-noche .menu-item {
+  background-color: #333;
+  border-color: #444;
+}

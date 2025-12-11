@@ -10,8 +10,9 @@
 <body>
 
   <header>
-    <h1>Cafetería Motitas</h1>
+    <h1 id="titulo-principal">Cafetería Motitas</h1>
     <p>Donde el café es fuerte y las motitas son tiernas.</p>
+    <button id="btn-modo-noche">Activar el modo noche</button>
   </header>
 
   <nav>
@@ -31,11 +32,17 @@
           Somos una cafetería de barrio donde el aroma del café recién molido
           se mezcla con el ronroneo de nuestras motitas residentes.
         </p>
+        <button onclick="alert('Bienvenidos, inline')">
+          pulsa aqui.
+        </button>
       </section>
 
       <section id="menu">
         <h2>Menú destacado</h2>
         <p>Algunas de nuestras especialidades:</p>
+        <!-- <script>
+          console.log('si hay que venir el viernes.')
+        </script> -->
 
         <div class="menu-grid">
           <div class="menu-item">
@@ -93,6 +100,6 @@
   <footer>
     <p>© 2025 Cafetería Motitas. Todos los derechos reservados.</p>
   </footer>
-
+<script src="app.js"></script>
 </body>
 </html>
