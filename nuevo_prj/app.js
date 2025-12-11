@@ -44,6 +44,7 @@ botonModoNoche.addEventListener('click', function () {
 
 const spanContadorCafes = document.querySelector('#contador-cafes')
 const botonAgregarCafe = document.querySelector('#btn-agregar-cafe')
+const botonQuitarCafe = document.querySelector('#btn-quitar-cafe')
 
 // 2. variable contadora
 
@@ -53,6 +54,14 @@ let cantidadCafes = 0
 
 botonAgregarCafe.addEventListener('click', function () {
   cantidadCafes++
+  spanContadorCafes.textContent = cantidadCafes
+
+
+  console.log('cafes pedidos hasta ahora: ', cantidadCafes)
+})
+
+botonQuitarCafe.addEventListener('click', function () {
+  cantidadCafes--
   spanContadorCafes.textContent = cantidadCafes
 
 
